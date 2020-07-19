@@ -7,8 +7,8 @@ class Classification < ActiveRecord::Base
   end
 
   def self.longest
-    byebug
     
+
      Boat.longest.classifications
 
   end
